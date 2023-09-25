@@ -4,6 +4,8 @@
 
 - Download Scriptable for iOS
 - Go to this Repo on your Phone and download treenews.js, you need to click the treenews.js file and then click the 3 dots icon.
+- Go to your Downloads folder and open the treenews.js file and copy it.
+- Open Scriptable, click the + to add a new custom script and paste the code of treenews.js you just copied
 - Add a Scriptable Widget to your Homescreen like you would normally do. 
 - In the Menu you choose the Tree News Widget, it takes a few seconds to load the news
 
