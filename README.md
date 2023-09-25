@@ -1,5 +1,6 @@
 
-# Forked https://github.com/Saudumm/scriptable-News-Widget to get TreeNews Widget
+
+**This is a fork of https://github.com/Saudumm/scriptable-News-Widget. Ive added just a few lines of code to the News Widget.js of the original repo**
 
 - Download Scriptable for iOS
 - Go to this Repo on your Phone and download treenews.js, you need to click the treenews.js file and then click the 3 dots icon.
