@@ -1,3 +1,11 @@
+
+# Forked https://github.com/Saudumm/scriptable-News-Widget to get TreeNews Widget
+
+1.) Download Scriptable for iOS
+2.) Go to this Repo on your Phone and download treenews.js, you need to click the treenews.js file and then click the 3 dots icon.
+3.) Add a Scriptable Widget to your Homescreen like you would normally do. 
+4.) In the Menu you choose the Tree News Widget, it takes a few seconds to load the news
+
 # iOS News Widget for Scriptable
 
 iOS Scriptable News Widget (for websites using WordPress and RSS feeds)
