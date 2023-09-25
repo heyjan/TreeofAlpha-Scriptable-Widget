@@ -118,7 +118,7 @@ var PARAM_LINKS =
 // If only one site is configured (in the
 // code or parameters), the name of the site
 // is used.
-var PARAM_WIDGET_TITLE = "News Widget";
+var PARAM_WIDGET_TITLE = "Tree News";
 
 // Note: custom background image files have
 // to be in the Scriptable (iCloud) Files
