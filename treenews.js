@@ -584,9 +584,8 @@ async function getData() {
                     const postDateSort = await new Date(postDate).toLocaleString(["fr-CA"], {year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit"});
                     const postTitle = await _formatPostTitle(item.title);
                     const postURL = item.url;
-                    const postIMGURL = "none"; // The provided JSON doesn't seem to have an image URL, adjust if necessary
 
-                    await aData.push([postDateSort, postDate+"|||"+postTitle+"|||"+postURL+"|||"+postIMGURL+"|||"+item.source]);
+                    await aData.push([postDateSort, postDate+"|||"+postTitle+"|||"+postURL+"|||"+item.source]);
                 }
 
             } else if (whatToLoad.loadFormat == "WP-JSON") {
