@@ -83,7 +83,7 @@ var SETTINGS_FILE = "none";
 // as soon as a new version is released
 // true = check for script updates
 // false = don't check for updates
-var CHECK_FOR_SCRIPT_UPDATE = true;
+var CHECK_FOR_SCRIPT_UPDATE = false;
 
 /*******************************************/
 /*                                         */
@@ -108,8 +108,6 @@ var CHECK_FOR_SCRIPT_UPDATE = true;
 // very long time if you add too many links.
 var PARAM_LINKS =
     [
-        ["http://rss.cnn.com/rss/edition.rss", "CNN"],
-        ["https://news.google.com/rss", "GOOGLE NEWS"],
         ["https://news.treeofalpha.com/api/news?limit=10", "TREE NEWS"],
     ];
 
@@ -144,7 +142,7 @@ var PARAM_BG_IMAGE_GRADIENT = "true";
 // values in small config widgets.
 // "true" = display images next to headlines
 // "false" = no images next to posts
-var PARAM_SHOW_NEWS_IMAGES = "true";
+var PARAM_SHOW_NEWS_IMAGES = "false";
 
 /*******************************************/
 /*                                         */
@@ -584,8 +582,9 @@ async function getData() {
                     const postDateSort = await new Date(postDate).toLocaleString(["fr-CA"], {year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit"});
                     const postTitle = await _formatPostTitle(item.title);
                     const postURL = item.url;
+                    const postIMGURL = "none"; // The provided JSON doesn't seem to have an image URL, adjust if necessary
 
-                    await aData.push([postDateSort, postDate+"|||"+postTitle+"|||"+postURL+"|||"+item.source]);
+                    await aData.push([postDateSort, postDate+"|||"+postTitle+"|||"+postURL+"|||"+postIMGURL+"|||"+item.source]);
                 }
 
             } else if (whatToLoad.loadFormat == "WP-JSON") {
