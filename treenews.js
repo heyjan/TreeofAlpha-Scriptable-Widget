@@ -166,7 +166,7 @@ var PARAM_SHOW_NEWS_IMAGES = "false";
 // default to 4. If you have exactly
 // four websites configured in PARAM_LINKS,
 // this Setting will always default to 4.
-var CONF_LARGE_WIDGET_MAX_NEWS = 4;
+var CONF_LARGE_WIDGET_MAX_NEWS = 5;
 
 // Configure how posts should be displayed
 // in the widget.
