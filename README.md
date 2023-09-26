@@ -7,7 +7,7 @@
 - Go to your Downloads folder and open the treenews.js file and copy it.
 - Open Scriptable, click the + to add a new custom script and paste the code of treenews.js you just copied
 - Add a Scriptable Widget to your Homescreen like you would normally do. 
-- In the Menu you choose the Tree News Widget, it takes a few seconds to load the news
+- In the menu you choose the "Untitled Script" you just created, it takes a few seconds to load the news
 
 # iOS News Widget for Scriptable
 
